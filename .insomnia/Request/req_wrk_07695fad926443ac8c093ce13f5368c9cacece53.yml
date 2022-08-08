@@ -1,0 +1,30 @@
+_id: req_wrk_07695fad926443ac8c093ce13f5368c9cacece53
+type: Request
+parentId: fld_wrk_07695fad926443ac8c093ce13f5368c9418b03c9
+modified: 1659819196186
+created: 1659819142581
+url: "{{ base_url }}/community/create"
+name: /community/create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "user": "string",
+      "comminity": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7421bbb689394b4c8ff81d782395a776
+authentication: {}
+metaSortKey: -1659819142581
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

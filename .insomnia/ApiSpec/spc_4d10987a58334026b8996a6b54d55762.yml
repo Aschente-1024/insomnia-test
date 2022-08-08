@@ -1,7 +1,7 @@
 _id: spc_4d10987a58334026b8996a6b54d55762
 type: ApiSpec
 parentId: wrk_07695fad926443ac8c093ce13f5368c9
-modified: 1659816741292
+modified: 1659873638202
 created: 1659816726605
 fileName: my-spec.yaml
 contents: >-
@@ -21,6 +21,7 @@ contents: >-
       name: Apache 2.0
       url: http://www.apache.org/licenses/LICENSE-2.0.html
   tags:
+    - name: community
     - name: pet
       description: Everything about your Pets
       externalDocs:
@@ -29,11 +30,44 @@ contents: >-
     - name: store
       description: Access to Petstore orders
     - name: user
-      description: Operations about user
-      externalDocs:
-        description: Find out more about our store
-        url: http://swagger.io
   paths:
+    /community:
+      get:
+        tags:
+          - community
+        operationId: getCommunity
+        parameters:
+          - name: community
+            in: query
+            required: true
+            schema: 
+              type: string
+          - name: user
+            in: query
+            required: true
+            schema: 
+              type: string
+        responses:
+          "500":
+            description: Community not found
+    /community/create:
+      post:
+        tags: [community]
+        operationId: create community
+        requestBody:
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties:
+                    user:
+                      type: string
+                    comminity:
+                      type: string
+                  
+        responses:
+          "500": 
+            description: create failed
     /pet:
       post:
         tags:
@@ -484,6 +518,12 @@ contents: >-
     - url: https://petstore.swagger.io/v2
   components:
     requestBodies:
+      Community:
+        content: 
+          application/json:
+            schema:
+              type: object
+              
       UserArray:
         content:
           application/json:

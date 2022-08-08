@@ -1,0 +1,27 @@
+_id: req_wrk_07695fad926443ac8c093ce13f5368c9e0515dd8
+type: Request
+parentId: fld_wrk_07695fad926443ac8c093ce13f5368c9418b03c9
+modified: 1659817773169
+created: 1659817773169
+url: "{{ base_url }}/community"
+name: /community
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: community
+    disabled: false
+    value: string
+  - name: user
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1659817773169
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

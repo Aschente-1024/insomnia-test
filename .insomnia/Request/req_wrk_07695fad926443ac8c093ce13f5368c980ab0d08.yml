@@ -1,0 +1,25 @@
+_id: req_wrk_07695fad926443ac8c093ce13f5368c980ab0d08
+type: Request
+parentId: fld_wrk_07695fad926443ac8c093ce13f5368c91b034c38
+modified: 1659819836465
+created: 1659817773158
+url: ""
+name: Finds Pets by status
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: status
+    disabled: false
+    value: available
+    id: pair_1ee304fb7f244b1c9a7569520263ab5c
+headers: []
+authentication: {}
+metaSortKey: -1659817773158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
