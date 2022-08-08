@@ -1,7 +1,7 @@
 _id: ut_8ee172a5b33e4e5ba548e32e8127ddd7
 type: UnitTest
 parentId: uts_69f33fe1369c4c5fa0a0b476875b7553
-modified: 1659873455684
+modified: 1659935715769
 created: 1659819503094
 requestId: req_wrk_07695fad926443ac8c093ce13f5368c93d1a51d3
 name: Returns 200
@@ -10,3 +10,5 @@ code: >-
   insomnia.send('req_wrk_07695fad926443ac8c093ce13f5368c93d1a51d3');
 
   expect(response1.status).to.equal(200);
+
+  console.log(response1)

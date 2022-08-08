@@ -1,7 +1,7 @@
 _id: req_wrk_07695fad926443ac8c093ce13f5368c974a7a059
 type: Request
 parentId: fld_wrk_07695fad926443ac8c093ce13f5368c91b034c38
-modified: 1659817773161
+modified: 1659953315574
 created: 1659817773161
 url: "{{ base_url }}/pet"
 name: Update an existing pet
@@ -23,7 +23,7 @@ body:
       "tags": [
         {
           "id": 0,
-          "name": "string"
+          "name": "test string"
         }
       ],
       "status": "string"
@@ -32,6 +32,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_072c08d69da14370a64d962c127a7712
 authentication: {}
 metaSortKey: -1659817773161
 isPrivate: false
