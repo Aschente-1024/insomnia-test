@@ -1,0 +1,10 @@
+_id: fld_wrk_07695fad926443ac8c093ce13f5368c9fbe7d7ba
+type: RequestGroup
+parentId: wrk_07695fad926443ac8c093ce13f5368c9
+modified: 1659935205701
+created: 1659935205701
+name: channel
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1659935205701

@@ -1,9 +1,9 @@
-_id: req_wrk_07695fad926443ac8c093ce13f5368c9e0515dd8
+_id: req_wrk_07695fad926443ac8c093ce13f5368c959e7c346
 type: Request
 parentId: fld_wrk_07695fad926443ac8c093ce13f5368c9418b03c9
-modified: 1659817773169
-created: 1659817773169
-url: "{{ base_url }}/channel"
+modified: 1659935205698
+created: 1659935205698
+url: "{{ base_url }}/community"
 name: /community
 description: ""
 method: GET
@@ -17,7 +17,7 @@ parameters:
     value: string
 headers: []
 authentication: {}
-metaSortKey: -1659817773169
+metaSortKey: -1659935205698
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
